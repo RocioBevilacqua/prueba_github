@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/bcfa1f2410.js" crossorigin="anonymous"></script>  
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cervecería</title>
+</head>
+<body class="body">
+
+<!-------------------------------------------- HEADER -------------------------------------------->
+
+    <header class="header-container">
+        <nav class="navMenu">
+            <ul class="navBar">
+                <li class="level1"><a href="cerveceria.html" class="navOption">CERVECERIA</a></li>
+                <li class="level1"><a href="cervezas.html" class="navOption">CERVEZA</a>
+                    <ul class="sub-navBar">
+                        <li class="level2"><a href="cervezas.html" class="navOption2">PILSEN</a></li>
+                        <li class="level2"><a href="cervezas.html" class="navOption2">BOCK</a></li>
+                        <li class="level2"><a href="cervezas.html" class="navOption2">ROJA</a></li>
+                        <li class="level2"><a href="cervezas.html" class="navOption2">DOPPELBOCK</a></li>
+                        <li class="level2"><a href="cervezas.html" class="navOption2">HONNEYBEER</a></li>
+                        <li class="level2"><a href="cervezas.html" class="navOption2">WEISSBEER</a></li>
+                    </ul>
+                </li>
+                <li class="level1"><a href="index.html" class="navOption navButton"><img src="Imagenes/logo.png" alt="navlogo" class="navLogo"></a></li>
+                <li class="level1"><a href="experiencias.html" class="navOption">EXPERIENCIAS</a></li>
+                <li class="level1"><a href="visitanos.html" class="navOption">VISITANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-------------------------------------------- MAIN -------------------------------------------->
+
+<main class="work-container">
+    <section class="workWithUs">
+        <h1 class="work-header">TRABAJÁ CON NOSOTROS</h1>
+        <div class="workImages-container">
+            <img src="imagenes/Work1.png" alt="work1" class="workImage">
+            <img src="imagenes/Work2.png" alt="work2" class="workImage">
+            <img src="imagenes/Work3.png" alt="work3" class="workImage">
+            <img src="imagenes/Work4.png" alt="work4" class="workImage">
+            <img src="imagenes/Work5.png" alt="work5" class="workImage">
+            <img src="imagenes/Work6.png" alt="work6" class="workImage">
+        </div>
+    </section>
+    <section class="formulario-container"> <!-- Formulario de info -->
+        <h2 class="sendCV">ENVIANOS TU CURRICULUM</h2>
+        <div class="form-container">
+            <form class="row g-3 d-flex justify-content-center">
+                <div class="col-md-4">
+                <label for="validationServer01" class="form-label text-white">Nombre</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+                <div class="valid-feedback">
+                    OK!
+                </div>
+                </div>
+                <div class="col-md-4">
+                <label for="validationServer02" class="form-label text-white">Apellido</label>
+                <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+                <div class="valid-feedback">
+                    OK!
+                </div>
+                </div>
+                <div class="col-md-6">
+                <label for="validationServer03" class="form-label text-white">Ciudad</label>
+                <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+                    Seleccione una ciudad.
+                </div>
+                </div>
+                <div class="col-md-3">
+                <label for="validationServer05" class="form-label text-white">Email</label>
+                <input type="e-mail" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                <div id="validationServer05Feedback" class="invalid-feedback">
+                    Escribe tu email.
+                </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                        De acuerdo con términos y condiciones.
+                        </label>
+                        <div id="invalidCheck3Feedback" class="invalid-feedback">
+                        Debes aceptar antes de continuar.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="work2-container">
+        <img src="imagenes/Work7.png" alt="work7" class="workImage-long">
+    </section>
+</main>
+
+
+
+<!-------------------------------------------- FOOTER -------------------------------------------->
+
+<footer class="footer-container"> <!-- Footer container -->
+    <div class="shortcuts-container"> <!-- Accesos directos -->
+        <a href="politica-privacidad.html" class="shortcut">POLITICA DE PRIVACIDAD</a>
+        <a href="terminos-condiciones.html" class="shortcut">BASES Y CONDICIONES</a>
+        <a href="trabaja-con-nosotros.html" class="shortcut">TRABAJÁ CON NOSOTROS</a>
+        <div class="redes-container"> <!-- Redes container -->
+            <a href="https://www.facebook.com" class="socialMedia"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="socialMedia"><i class="fab fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/" class="socialMedia"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://twitter.com/" class="socialMedia"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <div class="drinkLegend-container"> <!-- Beber con moderación -->
+        <p class="drinkLegend">BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS. NO COMPARTA EL CONTENIDO CON MENORES.</p>
+    </div>
+
+    <div> <!-- Botón de Whatsapp -->
+        <a href="https://wa.me/+543516513134" class="whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+    </div>
+</footer>
